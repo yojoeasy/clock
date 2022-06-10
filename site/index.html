@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Clock</h1>
+        <div class="contain">
+            <div class="clock India" onclick="start(event,'India')">India</div>
+            <div class="clock Russia" onclick="start(event,'Russia')">Russia</div>
+            <div class="clock USA" onclick="start(event,'USA')">USA</div>
+        </div>
+    </div>
+    <div class="clockContainer">
+        <div class="clockContain">
+            <div class="show" id="India">
+                <h1>New Delhi ,India</h1>
+                <h2 class="showClock IndiaClock IClock"></h2>
+            </div>
+            <div class="show" id="Russia">
+                <h1>Russia</h1>
+                <h2 class="showClock RussiaClock IClock"></h2>
+            </div>
+            <div class="show" id="USA">
+                <h1>USA</h1>
+                <h2 class="showClock USAClock IClock"></h2>
+            </div>
+            <div class="show ">
+                <h2 class="showClock IClock"> Date & Time</h2>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
