@@ -1,0 +1,2 @@
+# clock
+show time
